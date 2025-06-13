@@ -11,7 +11,7 @@ export default function Projects() {
       technologies: ["Java", "React", "TypeScript", "Node.JS", "MongoDB"],
       gradient: "from-blue-50 to-indigo-50",
       techColor: "blue",
-      imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+      imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
     },
     {
       title: "Timing Gate System",
@@ -24,7 +24,7 @@ export default function Projects() {
       technologies: ["C/C++", "Python", "Node.JS", "ESP-32", "IoT"],
       gradient: "from-purple-50 to-pink-50",
       techColor: "purple",
-      imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+      imageUrl: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
     }
   ];
 

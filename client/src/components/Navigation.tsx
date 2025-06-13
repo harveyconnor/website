@@ -39,11 +39,11 @@ export default function Navigation() {
               <button onClick={() => scrollToSection('hero')} className="text-gray-600 hover:text-indigo-600 transition-colors duration-200">
                 Home
               </button>
-              <button onClick={() => scrollToSection('experience')} className="text-gray-600 hover:text-indigo-600 transition-colors duration-200">
-                Experience
-              </button>
               <button onClick={() => scrollToSection('skills')} className="text-gray-600 hover:text-indigo-600 transition-colors duration-200">
                 Skills
+              </button>
+              <button onClick={() => scrollToSection('experience')} className="text-gray-600 hover:text-indigo-600 transition-colors duration-200">
+                Experience
               </button>
               <button onClick={() => scrollToSection('projects')} className="text-gray-600 hover:text-indigo-600 transition-colors duration-200">
                 Projects
@@ -72,11 +72,11 @@ export default function Navigation() {
               <button onClick={() => scrollToSection('hero')} className="block px-3 py-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200 w-full text-left">
                 Home
               </button>
-              <button onClick={() => scrollToSection('experience')} className="block px-3 py-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200 w-full text-left">
-                Experience
-              </button>
               <button onClick={() => scrollToSection('skills')} className="block px-3 py-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200 w-full text-left">
                 Skills
+              </button>
+              <button onClick={() => scrollToSection('experience')} className="block px-3 py-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200 w-full text-left">
+                Experience
               </button>
               <button onClick={() => scrollToSection('projects')} className="block px-3 py-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200 w-full text-left">
                 Projects

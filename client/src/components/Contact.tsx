@@ -17,29 +17,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          {/* Email */}
-          <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl text-center hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2">
-            <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-envelope text-white text-xl"></i>
-            </div>
-            <h3 className="text-white font-semibold mb-2">Email</h3>
-            <a href="mailto:harveyconnor97@gmail.com" className="text-gray-200 hover:text-white transition-colors">
-              harveyconnor97@gmail.com
-            </a>
-          </div>
-
-          {/* Phone */}
-          <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl text-center hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2">
-            <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-phone text-white text-xl"></i>
-            </div>
-            <h3 className="text-white font-semibold mb-2">Phone</h3>
-            <a href="tel:+61418578194" className="text-gray-200 hover:text-white transition-colors">
-              +61 418 578 194
-            </a>
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-2xl mx-auto">
           {/* LinkedIn */}
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl text-center hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2">
             <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -67,7 +45,7 @@ export default function Contact() {
         <div className="text-center">
           <div className="inline-flex items-center bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full">
             <i className="fas fa-map-marker-alt text-white mr-3"></i>
-            <span className="text-white">Nunawading, Victoria, Australia</span>
+            <span className="text-white">Melbourne, Victoria, Australia</span>
           </div>
         </div>
       </div>
