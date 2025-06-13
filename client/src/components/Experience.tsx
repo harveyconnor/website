@@ -72,7 +72,7 @@ export default function Experience() {
           <div className="space-y-12">
             {experiences.map((exp, index) => (
               <div key={index} className="relative flex items-center">
-                <div className="absolute left-6 md:left-1/2 w-4 h-4 bg-gradient-to-r from-indigo-600 to-blue-600 rounded-full transform md:-translate-x-2 shadow-lg"></div>
+                <div className="absolute left-6 md:left-1/2 w-4 h-4 bg-indigo-600 rounded-full transform -translate-x-2 shadow-lg"></div>
                 <div className={`ml-16 md:ml-0 ${index % 2 === 0 ? 'md:w-1/2 md:pr-8' : 'md:w-1/2 md:pl-8 md:ml-auto'}`}>
                   <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
