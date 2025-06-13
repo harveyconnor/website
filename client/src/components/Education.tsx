@@ -12,13 +12,13 @@ export default function Education() {
             <div className="space-y-6">
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">Bachelor of Information Technology</h3>
-                <p className="text-indigo-600 dark:text-indigo-400 font-semibold mb-2">RMIT University</p>
+                <p className="text-blue-600 dark:text-blue-400 font-semibold mb-2">RMIT University</p>
                 <p className="text-gray-600 dark:text-gray-300">March 2017 – November 2019</p>
               </div>
               
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">Bachelor of Science</h3>
-                <p className="text-indigo-600 dark:text-indigo-400 font-semibold mb-2">Monash University</p>
+                <p className="text-blue-600 dark:text-blue-400 font-semibold mb-2">Monash University</p>
                 <p className="text-gray-600 dark:text-gray-300">March 2016 – November 2016</p>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">(Transferred to RMIT)</p>
               </div>

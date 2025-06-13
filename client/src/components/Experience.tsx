@@ -77,7 +77,7 @@ export default function Experience() {
                   <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                       <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100">{exp.title}</h3>
-                      <span className={`text-${exp.color}-600 font-semibold bg-${exp.color}-50 dark:bg-${exp.color}-900/30 dark:text-${exp.color}-400 px-3 py-1 rounded-full text-sm mt-2 md:mt-0`}>
+                      <span className="text-blue-600 dark:text-blue-400 font-semibold bg-blue-50 dark:bg-blue-900/30 px-3 py-1 rounded-full text-sm mt-2 md:mt-0">
                         {exp.period}
                       </span>
                     </div>
