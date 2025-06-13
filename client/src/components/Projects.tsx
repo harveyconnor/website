@@ -42,7 +42,7 @@ export default function Projects() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className={`group bg-gradient-to-br ${project.gradient} rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2`}>
+            <div key={index} className={`group bg-gradient-to-br ${project.gradient} dark:from-gray-800 dark:to-gray-700 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2`}>
               {/* Project Image */}
               <div className="h-64 bg-gradient-to-r from-blue-600 to-indigo-600 relative overflow-hidden">
                 <img 

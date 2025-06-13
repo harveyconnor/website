@@ -35,11 +35,17 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       
       setActualTheme(resolvedTheme);
       
+      // Prevent layout shift by maintaining scroll position
+      const scrollY = window.scrollY;
+      
       if (resolvedTheme === 'dark') {
         root.classList.add('dark');
       } else {
         root.classList.remove('dark');
       }
+      
+      // Restore scroll position
+      window.scrollTo(0, scrollY);
     };
 
     updateTheme();
