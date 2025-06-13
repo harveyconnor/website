@@ -28,17 +28,13 @@ export default function Portfolio() {
               Lead Software Engineer • Full Stack Developer • Innovation Driver
             </p>
             <div className="flex justify-center space-x-6 mb-8">
-              <a href="https://www.linkedin.com/in/harveyrconnor/" target="_blank" 
+              <a href="https://www.linkedin.com/in/harveyrconnor/" target="_blank" rel="noopener noreferrer"
                  className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-indigo-600 transition-colors duration-300">
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
-              <a href="https://github.com/harveyconnor" target="_blank" 
+              <a href="https://github.com/harveyconnor" target="_blank" rel="noopener noreferrer"
                  className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition-colors duration-300">
                 <i className="fab fa-github text-xl"></i>
-              </a>
-              <a href="mailto:harveyconnor97@gmail.com" 
-                 className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors duration-300">
-                <i className="fas fa-envelope text-xl"></i>
               </a>
             </div>
             <p className="text-gray-500 text-sm">
