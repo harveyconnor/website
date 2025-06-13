@@ -11,7 +11,7 @@ export default function Projects() {
       technologies: ["Java", "React", "TypeScript", "Node.JS", "MongoDB"],
       gradient: "from-blue-50 to-indigo-50",
       techColor: "blue",
-      imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+      imageUrl: "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2017/10/p-1-kinect-tk-1.jpg"
     },
     {
       title: "Timing Gate System",
@@ -24,7 +24,7 @@ export default function Projects() {
       technologies: ["C/C++", "Python", "Node.JS", "ESP-32", "IoT"],
       gradient: "from-purple-50 to-pink-50",
       techColor: "purple",
-      imageUrl: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+      imageUrl: "https://statathlon.com/wp-content/uploads/2018/03/gty_826741938_92856413.jpg"
     }
   ];
 
