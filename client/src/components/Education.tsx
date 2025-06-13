@@ -6,7 +6,7 @@ export default function Education() {
           
           {/* Education */}
           <div>
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">
               Education
             </h2>
             <div className="space-y-6">
@@ -27,7 +27,7 @@ export default function Education() {
 
           {/* Awards & Recognition */}
           <div>
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">
               Awards & Recognition
             </h2>
             <div className="bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">

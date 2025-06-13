@@ -17,19 +17,19 @@ export default function Hero() {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-purple-600 to-cyan-500 opacity-90"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-blue-600 to-cyan-500 opacity-90"></div>
       
       {/* Floating geometric shapes */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-72 h-72 bg-white/10 rounded-full blur-xl animate-float"></div>
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyan-400/20 rounded-full blur-2xl animate-float" style={{animationDelay: '-2s'}}></div>
-        <div className="absolute top-1/2 left-1/3 w-64 h-64 bg-purple-400/20 rounded-full blur-xl animate-float" style={{animationDelay: '-4s'}}></div>
+        <div className="absolute top-1/2 left-1/3 w-64 h-64 bg-blue-400/20 rounded-full blur-xl animate-float" style={{animationDelay: '-4s'}}></div>
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Harvey <span className="bg-gradient-to-r from-cyan-400 to-purple-300 bg-clip-text text-transparent">Connor</span>
+            Harvey <span className="bg-gradient-to-r from-cyan-400 to-blue-300 bg-clip-text text-transparent">Connor</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium mb-8 text-gray-100">
             Lead Software Engineer & Full Stack Developer

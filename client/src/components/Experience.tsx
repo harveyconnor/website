@@ -18,7 +18,7 @@ export default function Experience() {
       title: "Full Stack Software Engineer",
       company: "Nura Space",
       period: "Jan 2021 – Dec 2022",
-      color: "purple",
+      color: "blue",
       achievements: [
         "Architected entire Serverless PostgreSQL application for background processing user operations",
         "Improved React Native mobile application performance by >50%, reducing initial load times by 3-4 seconds",
@@ -56,7 +56,7 @@ export default function Experience() {
     <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">
             Professional Experience
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
@@ -66,7 +66,7 @@ export default function Experience() {
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-indigo-600 to-purple-600 transform md:-translate-x-0.5"></div>
+          <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-indigo-600 to-blue-600 transform md:-translate-x-0.5"></div>
 
           {/* Experience Items */}
           <div className="space-y-12">
@@ -81,7 +81,7 @@ export default function Experience() {
                         {exp.period}
                       </span>
                     </div>
-                    <p className="text-lg font-semibold text-purple-600 dark:text-purple-400 mb-4">{exp.company}</p>
+                    <p className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-4">{exp.company}</p>
                     <ul className="space-y-3 text-gray-600 dark:text-gray-300">
                       {exp.achievements.map((achievement, achievementIndex) => (
                         <li key={achievementIndex} className="flex items-start">
