@@ -53,13 +53,13 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-20 bg-gray-50">
+    <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
             Professional Experience
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             7+ years of building scalable applications and leading development teams
           </p>
         </div>
@@ -74,15 +74,15 @@ export default function Experience() {
               <div key={index} className="relative flex items-center">
                 <div className={`absolute left-6 md:left-1/2 w-4 h-4 bg-${exp.color}-600 rounded-full transform md:-translate-x-2 border-4 border-white shadow-lg`}></div>
                 <div className={`ml-16 md:ml-0 ${index % 2 === 0 ? 'md:w-1/2 md:pr-8' : 'md:w-1/2 md:pl-8 md:ml-auto'}`}>
-                  <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-                      <h3 className="text-2xl font-bold text-gray-900">{exp.title}</h3>
-                      <span className={`text-${exp.color}-600 font-semibold bg-${exp.color}-50 px-3 py-1 rounded-full text-sm mt-2 md:mt-0`}>
+                      <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100">{exp.title}</h3>
+                      <span className={`text-${exp.color}-600 font-semibold bg-${exp.color}-50 dark:bg-${exp.color}-900/30 dark:text-${exp.color}-400 px-3 py-1 rounded-full text-sm mt-2 md:mt-0`}>
                         {exp.period}
                       </span>
                     </div>
-                    <p className="text-lg font-semibold text-purple-600 mb-4">{exp.company}</p>
-                    <ul className="space-y-3 text-gray-600">
+                    <p className="text-lg font-semibold text-purple-600 dark:text-purple-400 mb-4">{exp.company}</p>
+                    <ul className="space-y-3 text-gray-600 dark:text-gray-300">
                       {exp.achievements.map((achievement, achievementIndex) => (
                         <li key={achievementIndex} className="flex items-start">
                           <i className="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>

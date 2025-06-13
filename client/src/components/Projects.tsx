@@ -29,13 +29,13 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="py-20 bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
             Featured Projects
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Innovative solutions combining hardware integration with modern software development
           </p>
         </div>
@@ -54,14 +54,14 @@ export default function Projects() {
               </div>
               
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{project.title}</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">{project.title}</h3>
+                <p className="text-gray-600 dark:text-gray-300 mb-6">
                   {project.description}
                 </p>
                 
                 <div className="mb-6">
-                  <h4 className="font-semibold text-gray-900 mb-3">Key Features:</h4>
-                  <ul className="space-y-2 text-gray-600">
+                  <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Key Features:</h4>
+                  <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                     {project.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center">
                         <i className="fas fa-check text-green-500 mr-2"></i>
@@ -75,7 +75,7 @@ export default function Projects() {
                   {project.technologies.map((tech, techIndex) => (
                     <span 
                       key={techIndex}
-                      className={`px-3 py-1 bg-${project.techColor}-100 text-${project.techColor}-800 rounded-full text-sm font-medium`}
+                      className={`px-3 py-1 bg-${project.techColor}-100 dark:bg-${project.techColor}-800/50 text-${project.techColor}-800 dark:text-${project.techColor}-200 rounded-full text-sm font-medium`}
                     >
                       {tech}
                     </span>
