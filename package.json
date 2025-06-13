@@ -1,5 +1,7 @@
 {
-  "name": "rest-express",
+  "name": "@harveyconnor/website",
+  "private": false,
+  "homepage": "https://harveyconnor.com",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
